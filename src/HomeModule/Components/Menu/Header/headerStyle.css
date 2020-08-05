@@ -1,0 +1,158 @@
+.user_login{
+    
+    border-right: 2px double rgba(255, 99, 71, 0.644);
+    padding-right: 10px;
+}
+.heading .sign_up a {
+    padding-right: 15px;
+    border-right: 2px double rgba(255, 99, 71, 0.644);
+    
+}
+
+.heading a{
+    text-decoration: none;
+    font-size: 13px !important;
+    font-weight: normal; 
+}
+
+.heading .sign_up, .heading .searchHeader {
+    font-size: 13px !important;
+    display: flex;
+    float: right;
+    color: #fff;
+}
+
+.heading .sign_up{
+    margin-right: 15px;
+}
+
+.heading{
+    width: 100%;
+    height: 40px;
+    line-height: 40px;
+    position: absolute;
+    z-index: 10;
+    background-color: rgba(0, 0, 0, 0.87);   
+}
+.heading .sign_up a:hover {
+    color: tomato !important;
+}
+.heading .searchHeader i:hover {
+    color: tomato !important;
+}
+
+.dropdown-toggle::after {
+    color: whitesmoke;
+    font-size: 40px !important;
+    content: none !important;
+}
+/* .dropdown-toggle::after:hover {
+    color: rgb(255, 124, 92) !important;
+    
+    
+} */
+
+.text_size_16 {
+    font-size: 14px;
+}
+.input_search input{
+    height: 80%;
+}
+.searchHeader button i {
+    font-size: 16px;
+    color: rgb(255, 255, 255);
+    
+}
+
+.heading .btn {
+    border: none !important;
+    padding: 0 0 0 0 !important;
+    
+}
+
+.heading .searchHeader button:focus {
+    outline: none;
+    box-shadow: none;
+}
+
+
+.ng-binding {
+    float: left;
+}
+
+@media screen and (max-width: 640px){
+    .searchHeader {
+        display: none !important;
+    }
+    
+}
+
+/* list the cities */
+/* .right div {
+    display: table-cell;
+    vertical-align: middle;
+} */
+.selectScroll li:hover {
+    background-color: tomato !important;
+}
+
+
+
+.selectMenu {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 0;
+    background-color: transparent;
+    border: none;
+    color: #9b9b9b;
+    cursor: pointer;
+    background-repeat: no-repeat;
+    background-position: calc(100% - 5px);
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    font-size: 13px;
+    padding-right: 25px;
+    padding-left: 30px;
+    text-align: left;
+}
+
+.selectLocation .dropdown-menu {
+    background: #fff!important;
+    top: 75%!important;
+    bottom: none;
+}
+
+.open>.dropdown-menu {
+    display: block;
+}
+.selectScroll {
+    max-height: 300px;
+    overflow-y: scroll;
+}
+.dropdown-menu {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    z-index: 1000;
+    display: none;
+    float: left;
+    min-width: 160px;
+    padding: 5px 0;
+    margin: 2px 0 0;
+    font-size: 14px;
+    text-align: left;
+    list-style: none;
+    background-color: #fff;
+    -webkit-background-clip: padding-box;
+    background-clip: padding-box;
+    border: 1px solid #ccc;
+    border: 1px solid rgba(0,0,0,.15);
+    border-radius: 4px;
+    -webkit-box-shadow: 0 6px 12px rgba(0,0,0,.175);
+    box-shadow: 0 6px 12px rgba(0,0,0,.175);
+}
+.selectMenu span:hover{
+    color: tomato;
+}

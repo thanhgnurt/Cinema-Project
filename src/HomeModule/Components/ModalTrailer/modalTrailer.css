@@ -1,0 +1,58 @@
+#modalTrailer .close{
+    position: absolute;
+    top: -5px;
+    right: -40px;
+    opacity: 1;
+    z-index: 2;
+}
+#modalTrailer .modal-body {
+    padding: 0;
+    padding-bottom: 64.4%;
+    padding-top: 15px;
+    height: 0;
+    z-index: 1;
+}
+.modal-content {
+    position: relative;
+    background-color: rgba(255, 255, 255, 0.055) !important;
+    -webkit-background-clip: padding-box;
+    background-clip: padding-box;
+    border: 1px solid #999;
+    border: 1px solid rgba(0,0,0,.2);
+    border-radius: 6px;
+    outline: 0;
+    -webkit-box-shadow: 0 3px 9px rgba(0,0,0,.5);
+    box-shadow: 0 3px 9px rgba(0,0,0,.5);
+}
+#modalTrailer .modal-dialog {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    margin: 0;
+}
+#modalTrailer .modal-dialog .modal-content .modal-body .on_close i {
+    color : rgba(255, 255, 255, 0.87);
+    font-size: 35px;
+    font-weight: 100 !important;
+}
+#modalTrailer .modal-dialog .modal-content .modal-body .on_close i:hover {
+    color: rgba(255, 120, 30, 0.856);
+}
+.close {
+    float: right;
+    font-size: 1.5rem;
+    font-weight: 700;
+    line-height: 1;
+    color: #000;
+    text-shadow: none !important;
+    opacity: .5;
+    outline: none !important;
+}
+
+/* .frameMovieHide {
+    display: none;
+} */
+.frameMovieShow {
+    display: block;
+}

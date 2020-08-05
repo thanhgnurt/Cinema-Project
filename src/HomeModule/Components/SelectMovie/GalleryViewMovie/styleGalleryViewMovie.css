@@ -1,0 +1,40 @@
+.gallery_view .view_icon{
+    color: white;
+}
+.gallery_view{
+    margin-bottom: 40px;
+}
+.gallery_view .dropdown_gallery_view .will_now_movie {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    color: white;
+    font-size: 20px;
+    
+}
+.dropdown_gallery_view {
+    display: flex ;
+    justify-content: flex-end;
+   
+}
+.gallery_view .view_icon i {
+    font-size: 20px;
+}
+
+.gallery_view .dropdown_gallery_view {
+    margin-right: 2.5%;
+}
+.dropdown_gallery {
+    min-width: 4em !important;
+    width: 50px !important;
+}
+.dropdown_gallery_view .view_icon i:hover {
+    color: tomato;
+}
+.dropdown_gallery_view ul li:hover {
+    background-color: tomato;
+}
+
+.groupMovie {
+    color: tomato ;
+}

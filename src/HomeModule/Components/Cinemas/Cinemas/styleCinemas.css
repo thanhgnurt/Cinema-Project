@@ -1,0 +1,21 @@
+.item_cinemas:focus{
+    outline: none;
+}
+header {
+    min-height: auto;
+    height: auto;
+}
+.cinemas_module {
+    width: 70% !important;
+    
+}
+.item_brand_cinemas{
+    height:80px; 
+}
+.item_brand_cinemas:focus{
+    outline: none;
+}
+.item_brand_cinemas .MuiTab-wrapper {
+    position: absolute;
+    bottom: 1px;
+}

@@ -1,0 +1,152 @@
+a.login-button {
+  color: #fff;
+  letter-spacing: 1px;
+  font-size: 16px;
+  padding: 10px 10px 5px 10px;
+  background: #000;
+  display: inline-block;
+}
+a.login-button:hover {
+  background: #fc4a04 !important;
+  text-decoration: none !important;
+  color: rgb(0, 0, 0) !important;
+}
+
+.main-top {
+  margin-top: 40px;
+  position: absolute !important;
+  z-index: 5;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.459);
+}
+
+.main-top h1 a:hover {
+  color: tomato !important;
+}
+.main-top h1 {
+  text-shadow: 2px 5px 5px rgba(0, 0, 0, 0.459);
+  font-family: "Courier New", Courier, monospace;
+}
+.main-top h1 a {
+  font-size: 25px;
+}
+
+body .main-top .container .active_navbar a {
+  background-color: tomato;
+  color: black !important;
+}
+.navbar-nav a:hover {
+  color: tomato !important;
+}
+
+.active_navbar a:hover {
+  color: black !important;
+}
+.text_logo {
+  color: tomato;
+  font-size: 50px !important;
+}
+
+.main-top h1:hover .text_logo {
+  color: whitesmoke !important;
+}
+
+.sticker {
+  position: fixed !important;
+  margin-top: 0px !important;
+  z-index: 1000 !important;
+  box-shadow: 2px 4px 4px rgb(0, 0, 0, 0.6) !important;
+  background-color: rgba(0, 0, 0, 0.8) !important;
+  height: 80px;
+}
+@media screen and (max-width: 768px) {
+  .navbar_mobile {
+    background-color: rgba(0, 0, 0, 0.61);
+  }
+}
+@media screen and (min-width: 992px) {
+  .ml-lg-3,
+  .mx-lg-3 {
+    margin-left: 0 !important;
+  }
+  .mr-lg-3,
+  .mx-lg-3 {
+    margin-right: 0 !important;
+  }
+  .navbar {
+    padding: 0px 0px;
+  }
+  .navbar-brand {
+    padding: 0px 0px;
+  }
+  #navbarSupportedContent ul li a {
+    font-size: 10px;
+  }
+  #navbarSupportedContent ul li {
+    margin-right: 0px;
+  }
+  
+}
+@media screen and (max-width: 1024px) {
+  .sticker {
+    height: 70px;
+  }
+  .ml-lg-3,
+  .mx-lg-3 {
+    margin-left: 0 !important;
+  }
+  .mr-lg-3,
+  .mx-lg-3 {
+    margin-right: 0 !important;
+  }
+
+  .navbar {
+    padding: 0px 20px;
+  }
+  .navbar-brand {
+    padding: 0px 0px;
+  }
+  #navbarSupportedContent ul li a {
+    font-size: 12px;
+  }
+  #navbarSupportedContent ul li {
+    margin-right: 0px;
+  }
+}
+@media screen and (max-width: 800px) {
+  .sticker {
+    height: 65px;
+  }
+
+  .navbar {
+    padding: 0px 20px;
+  }
+  .navbar-brand {
+    padding: 0px 0px;
+  }
+  #navbarSupportedContent ul li a {
+    font-size: 12px;
+  }
+  #navbarSupportedContent ul li {
+    margin-right: 0px;
+  }
+}
+
+@media screen and (min-width: 1350px) {
+  .sticker {
+    height: 80px !important;
+  }
+  .navbar {
+    padding: 0px 20px;
+  }
+  .navbar-brand {
+    padding: 0px 0px;
+  }
+  #navbarSupportedContent ul li a {
+    font-size: 13px;
+  }
+  #navbarSupportedContent ul li {
+    margin-right: 0px;
+  }
+  
+}

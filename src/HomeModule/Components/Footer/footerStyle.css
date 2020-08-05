@@ -1,0 +1,29 @@
+.back_to_top {
+    width:  50px;
+    height:  50px;
+    background: rgba(255, 255, 255, 0.822);
+    font-size: 35px;
+    color:  rgba(0, 0, 0, 0.863);
+    text-align:  center;
+    vertical-align: center;
+    display:  flex;
+    justify-content:  center;
+    align-items:  center;
+    position: fixed;
+    left: 50%;
+    bottom: 20px;
+    margin-left: -25px;
+	cursor: pointer;
+	visibility: hidden;
+    opacity: 0;
+    box-shadow: 2px 4px 4px rgb(0,0,0,0.4) ;
+    border-radius: 50%;
+}
+.back_to_top.show_back{
+	visibility: visible;
+	opacity: 1;
+}
+.back_to_top:hover {
+    background: tomato !important;
+    color:  rgba(241, 233, 233, 0.863);
+}
